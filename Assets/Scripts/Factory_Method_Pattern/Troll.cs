@@ -4,19 +4,19 @@ public class Troll: IEnemy
 {
     public void Attack()
     {
-        Debug.Log("Orc attacks with a club!");
-        // Orc attack logic
+        Debug.Log("Toll attacks with a rocks!");
+        // Troll attack logic
     }
 
     public void Die()
     {
-        Debug.Log("Orc has been defeated!");
-        // Orc death logic
+        Debug.Log("Troll has been slain!");
+        // Troll death logic
     }
 
     public void Spawn(Vector3 position)
     {
-        Debug.Log("Spawning an Orc at " + position);
-        // Instantiate Orc prefab or set up Orc-specific data here
+        Debug.Log("Spawning an Troll at " + position);
+        // Instantiate Orc prefab or set up Troll-specific data here
     }
 }

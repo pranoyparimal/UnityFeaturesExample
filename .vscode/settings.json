@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "UnityFeaturesProject.sln"
+    "dotnet.defaultSolution": "UnityFeaturesExample.sln"
 }
