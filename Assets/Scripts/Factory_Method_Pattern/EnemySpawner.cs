@@ -1,7 +1,7 @@
 // Purpose: Implementing the Factory Method Pattern for spawning enemies.
 using UnityEngine;
 
-public abstract class EnemySpawner
+public abstract class EnemySpawner: ScriptableObject
 {
     /// <summary>
     /// Factory Method for creating enemies

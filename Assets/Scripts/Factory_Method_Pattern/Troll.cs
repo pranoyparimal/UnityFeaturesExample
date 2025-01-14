@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Troll: IEnemy
 {
+    [SerializeField] private GameObject trollPrefab;
     public void Attack()
     {
         Debug.Log("Toll attacks with a rocks!");
