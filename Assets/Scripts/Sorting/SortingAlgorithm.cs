@@ -43,5 +43,29 @@ public class SortingAlgorithm : MonoBehaviour
         }
     }
     #endregion
+
+    #region Insertion Sort
+    [ContextMenu("Insertion Sort")]
+    void InsertionSort(){
+        //[4, 3, 2, 10, 12, 1, 5, 6]
+        for(int i=1; i<_numbers.Length; i++){
+            int _key = _numbers[i];
+            int j = i-1;
+
+            while(j>=0 && _numbers[j]>_key){
+                _numbers[j+1] = _numbers[j];
+                j = j-1;
+            }
+            _numbers[j+1] = _key;
+        }
+    }
+    #endregion
+
+    #region Merge Sort
+    void MergeSort(){
+        
+    }
+    #endregion
+    
     
 }
